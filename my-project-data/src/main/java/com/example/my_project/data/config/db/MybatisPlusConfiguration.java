@@ -17,7 +17,7 @@ import javax.sql.DataSource;
  * 2021-12-01 23:37
  */
 @Configuration
-@MapperScan(value = "com.example.mp.demo.mapper.ck", sqlSessionFactoryRef = "ckSqlSessionFactory")
+@MapperScan(value = "com.example.my_project.data.mapper.ck", sqlSessionFactoryRef = "ckSqlSessionFactory")
 public class MybatisPlusConfiguration {
 
     /**
